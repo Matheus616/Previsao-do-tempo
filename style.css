@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image: url("img/backgroundd.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caixa-maior{
+    background-color: black;
+    opacity: 0.8;
+    width: 95%;
+    max-width: 450px;
+    border-radius: 25px;
+    padding: 25px;
+
+}
+
+.lupa{
+    height: 20px;
+    width: 20px;
+}
+
+button{
+    border: none;
+    padding: 10px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    border-radius: 40%;
+    float: right;
+
+button:hover{
+    background-color: bisque;
+}
+
+}
+
+input{
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 100px);
+
+}
+
+.caixa-media{
+    margin-top: 30px;
+}
+
+.caixa-menor{
+    display: flex;
+    align-items: center;
+}
+
+.cidade{
+    color: #ffffff;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+.temp{
+    color: aliceblue;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.Umidade{
+    color: antiquewhite;
+    height: 30px;
+    width: 30px;
+    margin-top: 30px;
+    background-color: black;
+}
+
+.icone{
+    height: 30px;
+    width: 30px;
+    margin-top: 30px;
+
+}
+    
+.Névoa{
+    background-color: black;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
